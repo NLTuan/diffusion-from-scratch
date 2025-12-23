@@ -1,0 +1,17 @@
+[project]
+name = "diffusion-scratch"
+version = "0.1.0"
+description = "A conditional diffusion model implemented from scratch."
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "numpy",
+    "tqdm",           # For progress bars
+    "matplotlib",     # For plotting results
+    "Pillow",         # For image handling
+    "tensorboard",    # (Optional) For tracking training loss
+]
+
+[tool.uv]
+# This section allows you to pin specific versions if needed for reproducibility
