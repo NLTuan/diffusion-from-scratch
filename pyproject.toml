@@ -7,10 +7,12 @@ dependencies = [
     "torch",
     "torchvision",
     "numpy",
-    "tqdm",           # For progress bars
-    "matplotlib",     # For plotting results
-    "Pillow",         # For image handling
-    "tensorboard",    # (Optional) For tracking training loss
+    "tqdm", # For progress bars
+    "matplotlib", # For plotting results
+    "pillow", # For image handling
+    "tensorboard", # (Optional) For tracking training loss
+    "ipython>=8.37.0",
+    "einops>=0.8.1",
 ]
 
 [tool.uv]
